@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entity\**" />
+    <Compile Remove="InputParams\**" />
+    <EmbeddedResource Remove="Entity\**" />
+    <EmbeddedResource Remove="InputParams\**" />
+    <None Remove="Entity\**" />
+    <None Remove="InputParams\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FreeSql" Version="3.2.682" />
+    <PackageReference Include="FreeSql.Extensions.BaseEntity" Version="3.2.682" />
+  </ItemGroup>
+
+</Project>
