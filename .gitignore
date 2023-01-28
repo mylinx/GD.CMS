@@ -361,8 +361,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/GD.CMS.Service/ServiceAdmin/Logs/ILogService.cs
-/GD.CMS.Service/ServiceAdmin/Logs/ILogService.cs
-/GD.CMS.Service/ServiceAdmin/Logs/LogService.cs
-/GD.CMS.Service/ServiceAdmin/Logs/LogService.cs
-/GD.CMS.Service/ServiceAdmin/Logs/ILogService.cs
